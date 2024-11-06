@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+      function showmessage(){
+        alert("successfully registered")
+
+      }
+    </script>
+</head>
+<style>
+  .main{
+
+    background-image: url('school-supplies-table-composition_23-2148939173.jpg');
+    height: 100vh;
+    padding-top: 5px;
+    padding-bottom: -2PX;
+    background-size: cover;
+    background-position: center;
+  }
+  .main1{
+    border: 2px solid black;
+        box-shadow: 0 4px 8px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 300px;
+        margin-left: 400px;
+      
+  }
+</style>
+<body>
+
+  <form>
+    <div class="main" style="text-align: center;">
+      <div class="main1">
+    <h1>CLASS REGISTRATION</h1>
+
+    <h4>fill out the form carefully restration</h4><br>
+    <label><b>first name:</b></label>
+    <input type="text" id="first name"
+    name="first name" placeholder="first name" required><br><br>
+    <label><b>middle name:</b></label>
+    <input type="text" id="middle name"
+    name="middle name" placeholder="middle name" required><br><br>
+    <label><b>last name:</b></label>
+    <input type="text" id="last name"
+    name="last name" placeholder="last name" required><br><br>
+    <label><b>address:</b></label><br>
+    <textarea id="address" name="address" rows="4" required></textarea><br><br>
+    <label><b>student email:</b></label> 
+    <input type="text" id="email"
+    name="email" placeholder="@gmail.com"required
+    pattern="[@]{gmail}[.com]"><br><br>
+    <label><b>phone:</b></label>
+    <input type="text" id="phone"
+    name="phone" placeholder="+91"  required><br><br>
+    <label><b>Gender:</b></label>
+    <select>
+    <option value="select">select</option>
+    <option value="male">male</option>
+    <option value="female">female</option>
+    </select>
+    <label><b>course:</b></label>
+    <select>
+        <option value="select">select</option>
+        <option value="economics">economics</option>
+        <option value="international economics">international economics</option>
+        <option value="indian economy">indian economy</option>
+    </select><br><br>
+    <button onclick="showmessage()">submit</button>
+    <button>restart</button>
+  </form> 
+</div>
+</div> 
+</body>
+</html>

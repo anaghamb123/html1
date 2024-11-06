@@ -1,0 +1,19 @@
+#header1{
+    color: azure;background-color: blueviolet;
+}
+body{
+   display: flex;  
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   background-color: black;
+}
+/* .wrapper{
+  width: 420px;
+  background: purple;
+  color: white; */
+/* } */
+.h1{
+   font-size: 36;
+   text-align: center; 
+}
